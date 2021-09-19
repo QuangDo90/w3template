@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="navbar">
+           <ul class="navbar__list">
+               <li class="navbar__item navbar__home"><a href="#banner-container">HOME</a></li>
+               <li class="navbar__item"><a href="#main">BAND</a></li>
+               <li class="navbar__item"><a href="">TOUR</a></li>
+               <li class="navbar__item"><a href="">CONTACT</a></li>
+               <li class="navbar__item navbar__item--dropdown">
+                   <a href="">
+                   MORE
+                   <span><i class="fas fa-caret-down"></i></span>
+                   </a>
+                   <ul class="navbar__dropdown">
+                       <li><a href="">Merchandise</a></li>
+                       <li><a href="">Extras</a></li>
+                       <li><a href="">Media</a></li>
+                   </ul>
+               </li>
+           </ul>
+           <button class="navbar__mobile"><i class="fas fa-bars"></i></button>
+            <a href="" class="navbar__search">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <div class="banner-container" id="banner-container">
+            <div class="banner">
+                <img src="./imgs/chicago.jpg" alt="" class="banner__img" >
+                <div class="banner__text">
+                    <h3>Chicago</h3>
+                    <p>Thank you, Chicago - A night we won't forget.</p>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="./imgs/la.jpg" alt="" class="banner__img">
+                <div class="banner__text">
+                    <h3>Los Angeles</h3>
+                    <p>We had the best time playing at Venice Beach!</p>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="./imgs/ny.jpg" alt="" class="banner__img">
+                <div class="banner__text">
+                    <h3>New York</h3>
+                    <p>The atmosphere in New York is lorem ipsum.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="main" id="main">
+        <h2>THE BAND</h2>
+        <i>We love music</i>
+        <p class="main__content">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="main__img">
+            <div>
+                <p>Name</p>
+                <img src="./imgs/bandmember.jpg" alt="">
+            </div>
+            <div>
+                <p>Name</p>
+                <img src="./imgs/bandmember.jpg" alt="">
+            </div>
+            <div>
+                <p>Name</p>
+                <img src="./imgs/bandmember.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="main__buyTicket">
+        <div class="buyTicket">
+            <h1>TOUR DATE</h1>
+            <i>Remember to book your tickets!</i>
+            <div class="buyTicket__info">
+                <div class="buyTicket__sold">
+                    <p>September</p>
+                    <span>Sold out</span>
+                </div>
+                <div class="buyTicket__sold">
+                    <p>October</p>
+                    <span>Sold out</span>
+                </div>
+                <div class="buyTicket__sold buyTicket__sold--item3">
+                    <p>November</p>
+                    <div class="buyTicket__number">3</div>
+                </div>
+            </div>
+            <div class="buyTicket__img">
+                <div class="buyTicket__item">
+                    <img src="./imgs/newyork.jpg" alt="">
+                    <h5>New York</h5>
+                    <p class="buyTicket__item--p1">Fri 27 Nov 2016</p>
+                    <p class="buyTicket__item--p2">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button class="cart__on">Buy Ticket</button>
+                </div>
+                <div class="buyTicket__item">
+                    <img src="./imgs/paris.jpg" alt="">
+                    <h5>Paris</h5>
+                    <p class="buyTicket__item--p1">Sat 28 Nov 2016</p>
+                    <p class="buyTicket__item--p2">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button class="cart__on">Buy Ticket</button>
+                </div>
+                <div class="buyTicket__item">
+                    <img src="./imgs/sanfran.jpg" alt="">
+                    <h5>San Francisco</h5>
+                    <p class="buyTicket__item--p1" >Sun 29 Nov 2016</p>
+                    <p class="buyTicket__item--p2">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button class="cart__on">Buy Ticket</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="cart-container">
+        <div class="cart">
+          <div class="cart__header">
+              <div class="cart__suitcase">
+                <i class="fas fa-suitcase"></i>
+                <p>Tickets</p>
+              </div>
+              <button class="cart__turn"><i class="fas fa-times"></i></button>
+          </div>
+          <div >
+              <div class="cart__form" >
+                <i class="fas fa-shopping-cart"></i>
+                <p> Tickets, $15 per person</p>
+              </div>
+              <input type="text" name="" id="cart__input" placeholder="How many?">
+              <div class="cart__form">
+                <i class="fas fa-user"></i>
+                <p>Send To</p>
+              </div>
+              <input type="text" name="" id="cart__input" placeholder="Enter Email">
+              <button class="cart__pay">PAY
+                <i class="fas fa-check"></i>
+              </button>
+          </div>
+          <div class="cart__footer">
+              <button class="cart__off">
+                  Close <i class="far fa-times-circle"></i>
+              </button>
+              <p>Need<a href="">help?</a></p>
+          </div>
+        </div>
+    </div>
+    <div class="info-container">
+        <p class="info__contact">CONTACT</p>
+        <div class="info__note"><i >Fan? Drop a note!</i></div>
+        <div class="info__form">
+            <div class="info">
+                <div class="info__item">
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <p>Ha Noi, Viet Nam</p>
+                </div>
+                <div class="info__item">
+                    <span><i class="fas fa-phone"></i></span>
+                    <p> Phone: 0365043526</p>
+                </div>
+                <div class="info__item">
+                    <span><i class="fas fa-envelope"></i></span>
+                    <p> Email: quangdo28990@gmail.com</p>
+                </div>
+            </div>
+            <form action="" id="myform">
+                <input type="text" name="" id="myform__name" placeholder="Name"
+                 required>
+                <input type="email" name="" id="myform__email" placeholder="Email" required>
+                <input type="text" name="" id="myform__message" placeholder="Message" required>
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+    </div>
+    <div class="map">
+        <img src="./imgs/map.jpg" alt="">
+    </div>
+    <div class="footer">
+        <div class="footer__icon">
+            <span><i class="fab fa-facebook-square"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-snapchat"></i></span>
+            <span><i class="fab fa-pinterest-p"></i></span>
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-linkedin-in"></i></span>
+        </div>
+        <div class="footer__text">
+            <p>Powered by 
+                <a href="">w3.css</a>
+            </p>
+        </div>
+    </div>
+        
+    <script > 
+    //  banner toggle
+        let bannerIndex = 0;
+        showBanner(bannerIndex);
+         function showBanner(){
+        let i;
+        const banner = document.getElementsByClassName("banner");
+        for(i = 0; i < banner.length; i++) {
+           banner[i].style.display = "none";
+        }
+        bannerIndex++;
+        if(bannerIndex >= banner.length) {bannerIndex = 0};
+        banner[bannerIndex].style.display = "block";
+        setTimeout(showBanner, 3000)
+        }
+     // turn onoff form
+        const cart = document.querySelector(".cart")
+        const cartTurn = document.querySelector('.cart__turn')
+        const cartOn = document.getElementsByClassName('cart__on')
+        const cartOff = document.querySelector('.cart__off')
+        const cartContainer = document.querySelector(".cart-container")
+        let i;
+        for(i=0; i < cartOn.length; i++){
+            cartOn[i].addEventListener('click', () => {
+            cart.classList.add('active')
+        })
+        }
+        for(i=0; i < cartOn.length; i++){
+            cartOn[i].addEventListener('click', () => {
+            cartContainer.classList.add('toggle')
+        })
+        }
+        cartTurn.addEventListener("click", () => {
+            cart.classList.remove("active")
+        })
+        cartOff.addEventListener('click', () => {
+            cart.classList.remove('active')
+        })
+        cartTurn.addEventListener("click", () => {
+            cartContainer.classList.remove("toggle")
+        })
+        cartOff.addEventListener('click', () => {
+            cartContainer.classList.remove('toggle')
+        })
+        const navbar = document.querySelector('.navbar')
+        if(navbar.offsetWidth < 481 ) {
+            const menuMobile = document.querySelector('.navbar__mobile')
+            const navbarList = document.querySelector('.navbar__list')
+            menuMobile.addEventListener("click", () => {
+            navbarList.classList.toggle("show")
+        })
+        }
+        
+    </script>    
+</body>
+</html>
